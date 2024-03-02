@@ -1,0 +1,350 @@
+#root {
+  width:100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  top:0;
+}
+
+.hide{
+  display: none !important;
+}
+.top-head{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: rgb(247,247,247);
+  justify-content: end;
+  gap:10px;
+  text-decoration: none;
+  padding: 10px;
+}
+.top-head a{
+  color:black;
+}
+
+.heading { 
+  background-color: rgb(247,247,247);
+  top:0;
+  color:rgb(34,34,34);
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  padding-top: 15px;
+}
+
+
+.cart{
+  display: flex;
+  width:20%;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+  display: inline-block;
+}
+.cart .cart-count {
+  position: absolute;
+  top: 50%; /* Adjust as needed to vertically center */
+  left: 50%; /* Adjust as needed to horizontally center */
+  transform: translate(-50%, -50%);
+  color: black;
+  border-radius: 50%;
+  padding: 0.2em 0.5em;
+  font-size: 0.8em;
+}
+
+.bnb{
+  color:rgb(255,56,92)
+}
+.head{
+  background-color: rgb(255,255,255);
+  width:100%;
+  
+}
+.head .center-links a{
+  color:rgb(113,113,113);
+}
+.logins a{
+  color:black;
+}
+
+.navbar{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  
+}
+.center-links{
+  width:30%;
+  display: flex;
+  flex-direction: row;
+  gap:10%;
+}
+.center-links > a{
+  text-decoration: none;
+}
+.logins{
+  width:30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.logins .material-symbols-outlined{
+  font-size: 20px;
+  margin-left:8px;
+}
+
+
+.footer-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  background-color: black;
+  color:white;
+  text-align: start;
+  gap:190px;
+  padding:45px;
+}
+ ul li{
+  list-style: none;
+}
+.row-2 li{
+  color:rgb(126,126,126)
+}
+th{
+  width:200px;
+  
+}
+
+
+.image-gallery {
+  display: flex;
+  gap: 25px;
+  padding: 0 15px;
+  flex-wrap: wrap;
+  justify-content:center;
+  margin: 50px auto;
+  max-width: 1250px;
+}
+.image-gallery .img-card {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  overflow: hidden;
+  aspect-ratio: 1 / 1;
+  width: 285px;
+  line-height: 11px;
+}
+
+.img-card > .image img {
+  position: relative;
+  border-radius: 10%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.text > button{
+  position: absolute;
+  top:15px;
+  left: auto;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center; 
+  height: 27px;
+  width: max-content;
+  padding-top: 15px;
+}
+.reviews {
+  position: absolute;
+  top:15px;
+  right:4px;
+}
+
+.image-gallery .img-card image img {
+  height: 50%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.kitchencontainer{
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+
+}
+.kitchenimagediv{
+  width: 100%; /* Ensure the banner takes the full width of its container */
+  max-width: 100%; /* Prevent the banner from exceeding its intrinsic width */
+  overflow: hidden;
+  padding: 0;
+}
+.kitchenMenu.menu-heading{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.kitchenimagediv img{
+  width: 100%; /* Make the image fill the width of the banner */
+  height: 500px; /* Maintain the aspect ratio of the image */
+  display: block;
+  padding: 0;
+}
+
+.tm-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.tm-list-item-2 { align-items: flex-start; }
+
+.tm-list-item-img {
+  width: 160px;
+  height: 160px;
+  background-color: #099;
+}
+
+.tm-list-item-img-big {
+  width: 200px;
+  height: 200px;
+}
+
+.tm-list-item-text {
+  padding: 20px 25px;
+  flex: 1;
+}
+
+.tm-list-item-text-2 { flex: 1; }
+
+.tm-list-item-name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+.heading { 
+  background-color: rgb(247,247,247);
+  top:0;
+  color:rgb(34,34,34);
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 8vh;
+  padding-top: 15px;
+}
+
+
+button {  font-family: "Ubuntu", sans-serif;}
+.hide{
+  display:none;
+}
+
+
+/* Media query for small screens */
+@media screen and (max-width: 1200px) {
+ .center-links{
+  display: none;
+ }
+ .logins{
+  display: none;
+ }
+ 
+}
+
+
+  
+.container {  display: flex;  background-color: rgb(255, 255, 255);
+  margin-top: 3%;  margin-left: auto;  margin-right: auto;
+  border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(47, 18, 18, 0.101);
+  width: 1000px;  height: 568px;
+}
+
+.displayStep {  display: flex;  justify-content: center;
+  width: 274px;  height: 568px;
+  background-color: rgba(30, 16, 186, 0);
+  background-image: url(./assets/bg-sidebar-desktop.svg);
+}
+
+.circle {  position: relative;
+  background-color: rgba(220, 20, 60, 0);
+  width: 20%;  color: white;  font-weight: 500;  height: 50%;
+  margin-top: 15%;  display: flex;  flex-direction: column;
+  justify-content: space-between;  align-items: center;
+}
+.circle p {  margin-top: 10px;}
+.circle1 {  width: 40px;  height: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  border: solid 1px white;  display: flex;
+  justify-content: center;  color: black;
+}
+.circle2 {  width: 40px;  height: 40px;
+  border-radius: 20px;  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;  display: flex;
+  justify-content: center;
+}
+.circle3 {  width: 40px;  height: 40px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;  display: flex;
+  justify-content: center;
+}
+.circle4 {  width: 40px;  height: 40px;
+  border-radius: 20px;  background-color: rgba(0, 0, 0, 0);
+  border: solid 1px white;  display: flex;
+  justify-content: center;
+}
+
+.steps {  position: relative;
+  background-color: rgba(255, 255, 0, 0);
+  display: flex;  flex-direction: column;
+  justify-content: space-between;  width: 60%;
+  height: 50%;  margin-top: 15%;
+  margin-left: 0%;
+}
+
+.step1 {  position: inherit;  padding-left: 5px;
+  background-color: rgba(156, 55, 55, 0);
+}
+
+.steps p {  margin-bottom: 0px;
+  margin-top: 0px;  font-size: 14px;
+  color: hsl(231, 11%, 63%);
+}
+
+.steps span {  
+  color: white; 
+  font-size: 1.2em;
+
+}
+.stepContainer {
+  background-color: rgba(210, 96, 14, 0);
+  width: 50%;  height: 550px;
+  margin-top: auto;  margin-left: auto;
+  margin-right: auto;  margin-bottom: auto;
+}
+
+.stepInfo {  display: flex;  flex-direction: column;}
+.stepInfo input {  width: 100%;  height: 40px;
+  border-radius: 5px;
+  border: solid 1px rgba(103, 92, 92, 0.628);
+}
+.buttonContainerStepOne {  position: relative;
+  background-color: rgba(0, 255, 51, 0);
+  padding-left: 380px;  padding-top: 50px;}
+
