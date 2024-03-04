@@ -33,7 +33,7 @@ const SideBar = () =>{
                     <span><Link to={"/KitchenRegister"}>ADD TO MENU</Link></span>
                 </div>
                 <div className="step1">
-                    <span>PROFILE</span>
+                    <span><Link to={"/KitchenOrders"}>Orders</Link></span>
                 </div>
                 <div className="step1">
                     <span onClick={() =>{

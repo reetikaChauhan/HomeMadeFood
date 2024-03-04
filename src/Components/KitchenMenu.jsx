@@ -32,7 +32,13 @@ const KitchenMenu = ({cart,setCart,customer, kitchenselected}) =>{
     }, [id])
     
     const handleshowcart = () =>{
-           navigate("/CustomerSignIn")
+           if(!customer.uid){
+            navigate("/CustomerSignIn")
+           }
+           else{
+             navigate("ShoppingCart")
+           }
+           
           
     }
     return(
@@ -52,7 +58,7 @@ const KitchenMenu = ({cart,setCart,customer, kitchenselected}) =>{
                             </div>
                             <div className='cart' >
                                 <button onClick={() => handleshowcart()}><span className="material-symbols-outlined">shopping_bag</span></button>
-                                <span className="cart-count">0 </span>      
+                                <span className="cart-count">{cart.length} </span>      
                             </div> 
                         </div> 
                       

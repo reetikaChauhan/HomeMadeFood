@@ -7,6 +7,9 @@
   font-family: "Poppins", sans-serif;
   top:0;
 }
+a{
+  text-decoration: none;
+}
 
 .hide{
   display: none !important;
@@ -253,20 +256,28 @@ button {  font-family: "Ubuntu", sans-serif;}
   display:none;
 }
 
-
-/* Media query for small screens */
-@media screen and (max-width: 1200px) {
- .center-links{
-  display: none;
- }
- .logins{
-  display: none;
- }
- 
+.cart-item {
+  display: flex;
+  align-items: center;
 }
 
+.cart-item button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
-  
+.cart-item button:hover {
+  background-color: #0056b3;
+}
+
+.cart-item .count {
+  margin: 0 10px;
+}
+/* Admin panel*/
 .container {  display: flex;  background-color: rgb(255, 255, 255);
   margin-top: 3%;  margin-left: auto;  margin-right: auto;
   border-radius: 10px;
@@ -348,3 +359,14 @@ button {  font-family: "Ubuntu", sans-serif;}
   background-color: rgba(0, 255, 51, 0);
   padding-left: 380px;  padding-top: 50px;}
 
+/*      --------------------    */
+
+.center-block{
+  margin: 25px;
+}
+
+
+
+
+
+  

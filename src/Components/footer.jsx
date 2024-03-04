@@ -16,16 +16,16 @@ const Footer = () =>{
                 <div className='row-2'>
                     <ul>
                         <h6>Hosting</h6>
-                        <li>Airbnb your home</li>
+                        <li>HomeMadeFood your Kitchen</li>
                         <li>AirCover for Hosts</li>
-                        <li>Hosting resources</li>
+                        <li>Delivery resources</li>
                         <li>Community forum</li>
-                        <li>Hosting responsibly</li>
+                        <li>Delivery responsibly</li>
                     </ul>
                 </div>
                 <div className='row-2'>
                     <ul>
-                        <h6>Airbnb</h6>
+                        <h6>HomeMadeFood</h6>
                         <li>Newsroom</li>
                         <li>New features</li>
                         <li>Careers</li>
